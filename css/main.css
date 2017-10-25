@@ -131,9 +131,11 @@ h2 {
   width: 100%;
   height: 700px;
   background: rgb(231, 137, 137);
+  padding:50px;
 }
 .service-boxes {
   display: inline-block;
+  margin: 100px;
 }
 .service-images {
   width:200px;
@@ -141,6 +143,27 @@ h2 {
 }
 #third-container {
   width: 100%;
-  height: 700px;
+  height: 1200px;
   color:black;
+  padding: 30px;
+}
+#figure-hero {
+  width: 1000px;
+  height: 1000px;
+}
+
+#work-text{
+  padding:30px;
+}
+.image-work {
+  width:250px;
+  height: 250px;
+  margin: 50px;
+}
+.after-box{
+  color: black;
+}
+
+#image-box{
+  column-count: 3;
 }
