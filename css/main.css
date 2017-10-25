@@ -17,6 +17,7 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
+/*Añadiendo color,posicion y fuente al texto de todo el cuerpo*/
   font-family: 'Raleway', sans-serif;
   text-align: center;
   color:rgb(255, 255, 255);
@@ -75,14 +76,15 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+/*Añadiendo estilos al header*/
 header {
   width: 100%;
   height: 100px;
   background-color:rgb(255, 255, 255);
-  outline: 1px solid black;
   position: fixed;
   z-index: 10;
 }
+/*Añadiendo estilos a la barra de navegación*/
 #navigation-bar {
   width: 700px;
   height: 100%;
@@ -91,21 +93,23 @@ header {
 }
 .options {
   display: inline-block;
-  padding: 20px ;
+  padding: 10px ;
   margin-left: 100px;
 }
-
+/*Definiendo la posición del logo*/
 #logo{
   width: 100px;
   float: right;
   margin-top:-8%;
   margin-right: 120px;
 }
+/*Definiendo el contenedor principal*/
 #wrapper {
   width: 100%;
   height: 2100px;
   position: absolute;
 }
+/*Añadiendo estilos a la primera sección*/
 #first-container {
   width: 100%;
   height:700px;
@@ -114,9 +118,13 @@ header {
   background-size: cover;
 }
 #text-box {
-  padding: 200px;
+  padding: 300px;
   font-size: 20px;
 
+}
+#bigger-words{
+  font-size: 40px;
+  text-transform: uppercase;
 }
 #button {
   background: rgb(25, 175, 54);
@@ -127,6 +135,7 @@ header {
 h2 {
   margin: 0px;
 }
+/*Añadiendo estilos a la segunda sección*/
 #second-container {
   width: 100%;
   height: 700px;
@@ -141,9 +150,10 @@ h2 {
   width:200px;
   height:200px;
 }
+/*Añadiendo estilos a la tercera sección*/
 #third-container {
   width: 100%;
-  height: 1200px;
+  height: 1100px;
   color:black;
   padding: 30px;
 }
@@ -162,8 +172,17 @@ h2 {
 }
 .after-box{
   color: black;
+  text-transform: uppercase;
 }
 
 #image-box{
   column-count: 3;
+  padding:100px;
+}
+/*Añadiendo estilos al pie de pagina*/
+footer{
+  width: 100%;
+  height: 50px;
+  background: rgb(64, 68, 87);
+  padding:15px;
 }
