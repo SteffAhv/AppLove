@@ -3,6 +3,8 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 *:before, *:after {
@@ -78,6 +80,8 @@ header {
   height: 100px;
   background-color:rgb(255, 255, 255);
   outline: 1px solid black;
+  position: fixed;
+  z-index: 10;
 }
 #navigation-bar {
   width: 700px;
@@ -94,11 +98,15 @@ header {
 #logo{
   width: 100px;
   float: right;
-  margin-top:-9%;
+  margin-top:-8%;
   margin-right: 120px;
 }
-#first-container {
+#wrapper {
+  width: 100%;
+  height: 2100px;
   position: absolute;
+}
+#first-container {
   width: 100%;
   height:700px;
   background-image: url(../assets/images/bg-home.jpg);
@@ -113,6 +121,8 @@ header {
 #button {
   background: rgb(25, 175, 54);
   padding:20px;
+  position: absolute;
+  margin: 100px -60px;
 }
 h2 {
   margin: 0px;
@@ -123,6 +133,7 @@ h2 {
   background: rgb(231, 137, 137);
 }
 #third-container {
+  width: 100%;
   height: 700px;
   color:black;
 }
